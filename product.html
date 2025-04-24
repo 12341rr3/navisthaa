@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Products - Dark Theme</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+
+    #products {
+      background-color: #1e1e1e;
+      padding: 2rem 0;
+    }
+
+    #products h2 {
+      background-color: #000;
+      color: #fff;
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+
+    .card {
+      background-color: #2c2c2c;
+      border: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(245, 242, 242, 0.1);
+    }
+
+    .card-title {
+      color: #ffffff;
+    }
+
+    .card-text {
+      color: #cccccc;
+    }
+    .card img {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+a.text-light:hover {
+  color: #0dcaf0; /* Bootstrap info color or your preferred hover */
+}
+
+
+
+  </style>
+</head>
+<body>
+      
+
+<!-- Products Section -->
+<section id="products" class="w-100">
+  <div class="container responsivegrid">
+    <h2 class="text-center mb-4 animate__animated animate__fadeInDown animate__slow">Our Products</h2>
+    <div class="row g-4">
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-1s">
+          <img src=" https://media-hosting.imagekit.io/b1547f19f7cf4559/screenshot_1744616773750.png?Expires=1839224774&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=acDHClS4739~nMwI648B4hd5Ir9IQDpTfMIEnNyBwc5Plt8DDTjk2rQjOU6xQz~wzqTFzZTYlZus9tzPwmtEsWwZq6kV83GmJTT~6Op16ArLqVt7Pkd4wUjs0q4cpjatOfT3aQMes8gGeWynlL9M0aX6xaCS7E~6AZ~biUbuXy5RbMsrUzUpJX16m~6-Lxcyyo9AgP6Gk2PUb37CRGg6aRwwET2x99YCWovItZfdqHcf7MWvbQaSUQu7ey~qTsLRykb0U75uePVdPV0qLn4ruB4ljYmJKhvB5YtbmllStKm9Z0WgXBX~lCbxFHnrDg22fyXYwaIs73Pdxg3Tfqzgog__" class="img-fluid w-100 fade-on-scroll">
+          <div class="card-body">
+            <h5 class="card-title">TPMS</h5>
+            <p class="card-text">Real-time tire pressure and temperature monitoring for enhanced safety and performance.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-1s">
+          <img src=" https://media-hosting.imagekit.io/aa1c331a4eac48f8/screenshot_1744622079556.png?Expires=1839230080&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=YaLjug7l0F2477o8X1vq2pw-Do4-GLZzwnkBupxXnOkYgHDHYXcTS8NgfVUYkQGq27qq7SZ8Hgre-ZZAJwE4CAv9fouXNSWYVUwnSTp4bhYG37oIn0foqerFOVSzqWG1wtbCLvdXf9j3yUbcWFDnR2JoZi6nMNrVZso29yC5NLyg844vf3nuTf1hsWXu0UMEgQ56S5lDTjVgJKDJMMBUCh~Q5qSlBYdl2QMGJl6~PhpdNaJUspSrJoiTp3uncrjYfxxCEe-nSJnVEcX9DbXC~HsaGZhY0G9ZccnULBgJ4Vg~8YOQ4HB-gQGxl26UmN5HcdCrP7aqMoeH4q5JMtp~ZQ__" class="card-img-top " alt="Ambient Light Kit">
+          <div class="card-body">
+            <h5 class="card-title">Ambient Light Kit</h5>
+            <p class="card-text">Create a soothing atmosphere in your car with customizable lighting and color options.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-2s">
+          <img src=" https://media-hosting.imagekit.io/99e4bfdeb8174af6/screenshot_1744622220800.png?Expires=1839230222&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=BkBGU9E1NrjjTGY2mY0gFxQOKX6KPhI1LxeMl4IUD5-AnwQ1vmKNSFNhw96TwdNWR~4Kw9lDEsviTAnwycV5zN9teV5rOBs-w48hXFGtdPVrwSfvdA6s1oWtqSLV1YzynNr2fj8GUqjrhiRqYUJ~XtLJ6cDCTim88~9M0fhuXeQgcQ8mFNqcRMrLvtXJhPa5GBMQBpcveL-a2T42iavLIuHVzzyJJq9SFeIpkHdAYHpn9GuI7wM8TK1yKw59zcGjvMGgdQn11BeP82oiyvzuotuGkxPyvMAleM9H0gZv9fBPqXNWkhSRmDFBy0ohz8fm1Lk-1-43RGaWsH1oXd1t4g__" class="card-img-top " alt="Door Handle Protectors">
+          <div class="card-body">
+            <h5 class="card-title">Door Handle Protectors</h5>
+            <p class="card-text">Durable and stylish protection for your vehicle’s door handles against scratches and wear.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-2s">
+          <img src=" https://media-hosting.imagekit.io/adc5480e8e2b4ff0/screenshot_1744622390226.png?Expires=1839230391&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=2w9MgT2KFbPu-JodILlhRU2WpjA5uDObZa157Vu04Hr8VWW4RGI2ZiE85zE1vkS9kzwEu9cGu0pDJOMDmPMZjbqQtZO67wxDBr4qgBlt3~olOnxC6Ild2Rk18LwAQv7UYbGpuY8~WxsZaLnvoxYkX41w2C9cJAKIyJlAA55WvARnR98Qd1iB7zDKPgYLPqWN73A9Jp4pk9705WUsPTBkoardVkKSvQEWt-ot~agr2YFJrwEfFpwC8FinW1w8GgKnLU4Bl4GHi1OyxyDl0YAuOW1uUSuP2tlQE2GmHFW~M3YLNhim0atWzfSeekNIIT7bpV0uexWtF7Kxd8oA-Vm4PQ__" class="card-img-top" alt="Shark Fin Antenna">
+          <div class="card-body">
+            <h5 class="card-title">Shark Fin Antenna</h5>
+            <p class="card-text">Sleek and aerodynamic accessory that boosts signal reception and enhances vehicle aesthetics.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-3s">
+          <img src=" https://media-hosting.imagekit.io/fc8ac7fd95fc4df1/screenshot_1744622442391.png?Expires=1839230443&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=oJ5Orhw2seX0YC4otEzG5J7dMXxN0Uhe9GNa5au6E6Mnj-yTTHwRajs7IRYctPVgA~gAbQ0HlbEmW6LJ8IFhl2VWmYw~zL3qUPfuLwXQFUmHLOsfTSCyKFuf8DvSixawoYUNCr6lCtcbPpdsiJy7MdKLl85JS3RNkXWNkw-oo9OEB2tS7I2BIzpGEf6eJGSFStx-2NNvQNwUuJn~7EYedxh0m6ZzEwdKIb5R79lf8evifAZQ9XeIOt2~tyBHPLtd3YuhBZHLrNbzr0w6XZAYev3S383dPkdOgLeZme2idRd-t2Jp8QDCp4FgF8yjNCUsHoEFF7PRTv~kSj7FG3vSDg__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Pet Care Kit</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-3s">
+          <img src=" https://media-hosting.imagekit.io/1069538c16054202/screenshot_1744704881591.png?Expires=1839312881&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=C~3YevyWA5ydQGl25DXnNkTeLB2h~8P3U8JRKP4g-yTFnoKkHGykoq01hxBwJbQNtsFENFsxzw1dP2BWPV20oGFzDHUtU4Wgz1U7j6cODBgzH5O3jBf7FbWcjZix5hCKpVSWqABp6TxpYEKU6oUciSzEN9thkyouf~tA7MDI3sA73VsMl837J3uzwn558DO9LMFYPeAPn1liB9YhO5BnKjz7tJg62Hg2mJgSfMDYkFc1BsALhu9B2Ubn4iDp8L-7VshLLlo8EpfBiZV17buBmKu5mKYE4Y22xqwJFQvXyRo7iPW~yrdFQ76s4gy~bW1GVUb-MB3HBTrXhMJy0msmaQ__" class="card-img-top " alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Side Moldings</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/ed82ff6a31ff43dd/screenshot_1744705033793.png?Expires=1839313033&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=VeztcetPH~4ec39Y6IQPlnGQtgCEqytnQoeUNNEEN5eaGT1t-nBDnW-Uq9yjj5cxLH1QV7fSoliPZ2mBjIZtM17Be2BjtDTgtUHMxvw~MWLXwe9TNAiP9paMkQf9VdWM9QTrMFRBQ1Qu8y~RjPJ6mhcwOeJ9~txdOOzXBGihl6xyMpwNTtK2hM7SKUDMhc2TPGNudwuoy4YrBrF-8k4EbyzyBQq3M5kEZzMtX1SaaUT1CXZx~fWieoOwbCBfI62cRjxp5hPPapqMOXJyiwQB06X1HaMkjG-ak-i7s2l6IiTz-R0D-h6Gd2aZfvXb2VH6RFKf9nknvXA2dDbzlRh9~w__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Roof Rail</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/d3cfd7407415428f/screenshot_1744705097651.png?Expires=1839313097&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=1ZzRgQhUy5OMQ48sR0BURndZ12HON2owYhM-BEatWEfZIrfX9k5RrvHF84io8sNOXRX6coU9xXImOFaKBkgvBDgnBnv6JHPCII7nSbId~ZSx6fLl4giyOYxwxNEZwohkleibdxPVTe4KbS7-llu7Y8~rrhrJZ-r~3E~Lepml4R2D-IzL4vJROpljXsRrmTNd5gkZlPDh9AHyVialYq7tPjUNc9z46W90kgdPq9MENsuwsRaYNjvTMwJB3cIYjTWeJHzT9DmFeZTNyDNUm53sQNV-Uk8mg9i515Uiaw43fqMmq2uIBNctoYwZ3E2E101HjUIjD1DR8s7~Kgxoy33-Sg__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">SillPlate</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/056e8ad1c6944575/screenshot_1744708250333.png?Expires=1839316250&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=fZZcSdc6z-0jY-ge7vXJ-2-ulRsRXR9H0sgqUCBgBXKWRlkffSopXKg5J~O86k3iRscvG8H0i3JBSX2Evml590Jh4oPTAydSdDEk9eENr3Jd7snHpUx~4wMSmGUBLqKLllW15UwsvltZtbo6UDI9wedmgKPJsCCoL4Ezp7hbjLct9gheASg9T~~jqb-NssxU9SXL8KdqZAi83VJDIVQufRF~y~TGHxBmVT4ksC-OJt5rvvIc9eF0oa-8V1fJvWEhvU9DPrRvwpdBBBagTX25MTPs6vuvrVRXvvkJ71yz0xP25bW2Ll9jwAGwo~T4Y~OTTSvl3YxMYflyFZDoEbUh0A__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Mirror Covers</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src="https://media-hosting.imagekit.io/393d8baf09e84fe9/screenshot_1744709850577.png?Expires=1839317862&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ptMXFIAXvYbBI3CtHGCgSR-NEoVXHEhe4Gi~ZAENRb-aOGMlxeQXWyIn7B-GAsQ~PLFi5HTh1nn4V7dpv~7ZHGoEFJN5Yz0bLWvrtaNpbjE-jibNtoVnGMNpKx7R-jWKiHn2A6GGw390eLdP1fglt-Vgwg0Zx613Oc8Xe6zXxosWk~7EP5ru83QNmm2Z2wlSYhgeKQDpD9YvrvkyT-~HcH2tPuFNsN~nTqB1OjmUX--6wkn1KNeOYyuWhMXONU7BdRhhCHXVpO4arSsOgr~0uusjnZVlOGPJJJpL17VyYespIEzpa3uQ4YJiZ~G-uwVY-9VIsWKKAsPTm-MXUhx8Bw__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Spoiler</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/f12bd097c0f44eb9/screenshot_1744711015024.png?Expires=1839319014&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=GchZ8bGIrRKhRmQf0JjxBgzR46nHwDmDciT91qbn5o9cF7fDM~ZsY9tSi23QXzl0~wcvaBQEGrQ8WzlhEZOvruRSdA-HvbF-y~7dPduPduUU4Yp96yifw-cjM~tJmYCGsXf9TxBDkRFsUyGDMFxi6oUYZj7K5WxioCMGWBw~~b9B35Fcb5zpa2Q91NP-BeXiyOQs3hu7jft-H9lU9q~sS2WvSlNZ7c1VLWLqM4IzpyFeaHQpSu3qjmVvNu9DxXyfrb8R~2Pt27vxIG7Y9YOljnFksxuwK8So8xALNQ7-tFA22FAldcFKfhcVgdXgGybqBbHG-xc7EE9KEm-y5vIT2Q__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Fender Flare</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/abb517fc1a564ca0/screenshot_1744710980301.png?Expires=1839318980&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=zG7IEQ0wW7pyIewOkbDKYXKJ-LEloCflZbPNmTtdRHSh1KNiiCokswLSvDPrIbttu0FSNgaZHJ~mPv6PJ3kexET4geWw8oKL-hZOvrWnAYW1sUrx4unRGObcB3QQgoogCnijsJyHsbCW-hc9K9~a3GtuP7QZV6kRQgojpNQsjVW~izflQJLiHHTZWbSKQTHK9gzT13TJjAAgvWxo2wpOLPMqBC8vr~tGwvQQuBcXIZmAXJIVKQcn53jkhpsM6f6KnUGvTGKt6cHAPRiAXc0Za3sDHCvJeNxM6w-NOC44hEpzpCpfbbAP3lhrpdFaxR60UxfYfv1qFbNyknJph70Q-A__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Door Courtesy Light</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/f76f7c59869542de/screenshot_1744710944151.png?Expires=1839318944&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=N4049evUY2m~wGv4~kWvlZqchNexaVT1w-~Xf4q6OtPHeLIjBsDXgS~tPC-95fZRiDYWZVNxsMmcgmHWQBy~iVgt9MZ0CldXNyzbNmU48X-LtwbCsFYR2El7gX5XPF1lfdxukuPK3dNjIZR3iSSt3prCEnu0S2dN4DIauJ7KyDVlUwU3n3FWqHfxIuHGi-3D4iAsIyTq~p1Xxc-s1OenSe491-u4yyHq4WJ5fFxBGxJ78trnWEcorfSc-tdbDb8HNYYpjyJb182VAcin76HBcp-Xdb8oZbJLnqnSK9DtpJlWkdLmgFRX3jsBdENXTG4FKKWBrb7dGTsvpLZ35hFscQ__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Floating Hubs</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src="https://media-hosting.imagekit.io/c0ceb4e979644035/screenshot_1744710914718.png?Expires=1839318914&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=hDphgwJbPyb6lTVIdMm~-aps3P3nnslyfymkgpUVwxl1L4OgtKEixkH7lb8fyubF6ThiLaEfi3rS7bXcRfJav4ZbfHDziJnH20BlM0Wo-iO4zprzmbhtZgQgJ~6yvV4pcZLWZgUPBAjgGyxibew-6QvAiSwexqOP6f1JTCYf~CjxclcDBDO4kcUEFYkLsJ~PxLcYiJeRlh6I9sOLcB1UxbgLhIymgxIfat1-SO83chIt7yqHpnLsjqBwZ2tX~PYxZXqfUWVJoT7ZxYQcUmZcPK0WShtRJRvXVjHcp7H2h7r9CSzMIpcFnG5LOj5JInYY1vL8KjSJzCD0VcVlO5G7UQ__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Bumper Garnish</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/651be02129ea4642/screenshot_1744710879852.png?Expires=1839318879&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Y93F0bSc6yhYG5iifJPZOfBVtTjf8RGhB-t2OSzWuWbNGu~au2ATpv9AXZBRDePhPWhd1SWe9ggCFDaDaD6zH37QqgXYyBZ6kKN99qrzaFHT9ERr6ei~B6Nheww1W-ag5Eyl8tYa4ZA4wP84wmmZW1vxNN~CCIRr3WeQj3j4M8lS1Prz1INI1R0dYAQsNUSTyhMiqkzOcpyoBQTaWuPvqFYSATt7oLlFQYWbQko7U0mtCDkE94ikaNuA6Flf-buZlHYSRPGNUmFT4SG--Ald32DQhrYw-tpQ69qIsWMIo-SwiynRA6f9cFgFw0sO~bAOmhQw2jDvrmW4b9a8sFXJfA__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Rear Chrome Garnish</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/1af725559b5b402a/screenshot_1744710851217.png?Expires=1839318851&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=V5S~Lyu9vW~yQKbAiTmsKNkQ5dLZalDlh-jcEna6gA4io46UxzIb0e4U0nJYpkRqinY5WanVqLrkpEcLp7-7hqUpcFNAFSvvLxa5V4EzVw8Ay92v0CDMILUJofxelo3hJemKbykkTdMNJl6z6bfkRCslPG4b94V3Fxvz5BMmbfez2VLUtaTClRRj08lgV30pAL99xd99R~w90I3wlr6y3GjYIL3eCfStv~Uzeq70Uj8T9uphXoYFP~m7wi~vEuHhVLaepWJu25NxvtiOWSonCQWi3baRZGAChU8G2ABiL0Yv02aCkWD1Pk7OFlrVeQLbrLrftaPJ3IExLipZ1bSHIQ__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Interior Decorative Kit</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/d23219e0ee8749ce/screenshot_1744710795522.png?Expires=1839318795&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=sJF72pe6VWadnEkHMAlieqdBQAon-fQ5tBzE1aVSAN1iHC458MGHQSVea~Xjvq62ocF6D1YF7vK8Pn8lBI4aFvxOfKUuJ1YJCY6CuFPrth6h5Mww6QhBcT0juxzlDqM9ERdfuiUjNDfOvvvvFEZdQBTF2X4~Lb-dFLSNR~6QCbgBzj17uEHWeeDQCetSggRfHxzfPr9HEu9uWqFh7G6x3~fKUw-66w3VsKCPBaBtMMEVX4FFzL~hJ2EH4LsS13Bw9~ENSK0GUNs~SOkJRlwa2xaQpIjSPyQ-k~lDEvKdNvSDQ2cZ5uGfdXIHd-0JDH9ZIJiW5PUtMsLYa2hQwXrvKQ__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Ambient Mood Light</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/bfff2282ef2d43c0/screenshot_1744710751197.png?Expires=1839318751&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=jEubFCUWPHiRogyZPkwE2Ya5jQcLkx7AoM8Uz9JEzpmBYcOFsQUuw2XBxhLSrvdI9Nmqkn1fdx5KgnLSuuHLsL4lkEiW8nCnEmy2Z~6r0SvmvGJCIqSUCKXHFrBztdw7LKgu4gcuGZ-50AbSHrCBUGWvFH5LMAPF16lzo0e9MeoDK6MwJs0PsULn~Ps59psa1KRvpR3i1D5jRmvZh9R3V8-ZYvYNZ6~IldhMuue5HxCUR-R2~aXPwMmjk8Ckmawcbg5vdf~mGYYlH2pNFJ-ElUQiMcIqMIJLX-uOvazyYdEL8CB4F~3rPMARe1f7SIhx4wBYEGl3snPBS6n5hP5ZOA__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Parcel Tray</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/4af6391c9b0c46d8/screenshot_1744710714869.png?Expires=1839318714&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=YktgLP47JC5otsz6R3LSXUoHc8wlPFou79tJ1Ui3yeBQbeUgKU2KyuisdhHwVdIfhR-bXXoq7jC2rpG7kaRKN4qk9Kqxk8k4YWPNjIjIR5uPFIQRWGuN3i~msPgD4b5eMuS8UpeN9bgRtmfOjrwVIMgDsDVdp4uwLxo~kH2-19kCbqS-KhR4gV670GWQyKyVS32ala8XA2yDKUQKrxuStgyX9Ymd4NZxU9~spfDpgZ19vzJNzJS33UZthEAU3~3YnwI6GblbIFE-1~eQDNj22VJozH-ZMjP9E7mjuXPV~KXnnnaijbWuucMD4A7XaYPOOWASNgL7QCT~d3hLNR0p4g__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Shark Fin</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/16690384427b4b64/screenshot_1744710665845.png?Expires=1839318665&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=CZio5rdvOKpQj1zjW2K9r75cRSYdes~a9022Y1PB0wIMHwMtl7falbJLtqfFH6EMQxGjRLFjqNnIRUY8lDVUSZoPOAc1cV5xhkwQmzxPphR1ZeloZnJHuakH-tVai4uEknI3Ps-INpIBgBuZrs1WyKmEp-tR-SqoIu~o9LSudaA6~OYHHRUjeMA0-8AmADqi5pvTj1LVjEw2qGlMP2Vl8CtmDrLzgtvlMewAOMUiaY~plHoZwOxwPvCabOvqwYBfEFzLpBXRao6i~SLPHGYYZQJ6P4tWedU~SXH-FmVC7pUAoogEaO1En5McqG0uabuE1DsVw8O7EsgIPeMnqw6KUA__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Door Handle Protector</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/9f28ffeb16564985/screenshot_1744710627820.png?Expires=1839318627&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=aHPfCAnj87vvEGLTLn4ED5EQP1JK00z8oqhZdV0CnJ8qKfmxI4Zz90OUAs~oQeZD41tiTAxEYq6~MF0-16bL6Ys653~4zcn-nan0EIIgtxlkvzRuWHnooBFSfiy52GZSLlLZutb2oLzv7Oqx10JGgTdvwINqdHIGj0P0s18YvPJ6leGQVsd1hLtUtvmGTcXpFheAF3PVMDD25VjNhZlmwglGgA37gXze0J3hxN7MMmkVo9SOYfyGjAHp1wfDy0d5ALWOXm5CGFzrHFzZmxu3dSnPE~bvpBntcsPQBJmSYPiMxMCuL1w0nu0yx4iUDDgWRIAeyAXVsi1r9EYkqAqvTg__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Mud Flap</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/da1c050d97c44c85/screenshot_1744710592771.png?Expires=1839318592&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=O4sQgN0~Kg0-5xrInRprVZEesU~FJnCfslx7MweoucZW8hPPLLn95BYETz~3XvH4DvnUbpiZXQatWjWfNdX4lkHz3xaCBOFIcCwciX5JAhEDdb0Sbjtqx1ifj0z6AjJey9xFp0TJg1QRmuj3Jsc2IENDlLkMU6KsdNJ7BlY~tnpc-wAWocEQ0vEMGdfMSGwDZ22LHhjeVu21oMsQBXB3tme9LEJdKhfuu8dtahHEfY2No1whZKTAsRZJRdStxATWIeS0PmMlTXAf59yRjXBfGIuXNWxLZEL2iMrAYls2m1UzfvVGshbQn8RothoYx~4xI-sxyL7jOKKcDkCl3kdeRw__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Chrome Garnish & Front Emblem Logo Light</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/760578c5f70743e8/screenshot_1744710549664.png?Expires=1839318549&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=TxexpcfogRMFq4i~3eA25Skv32-cwyybxv03kCgR7J4EKGsb26cVBEKYDCRTRj4gGAd6Pi~BWQ~oLYkqtr5r0Mg6zE-863DkEzfAeE07ApIcnQNtW36nLgvyOrYLavCKOWBO9QKMbNqadrWof7uwXNRK-OGjNLvX9XQGJbdBVssQXEXQeFt9judu4xelXyM-sE3ShQ7IHGnglVwv0Mbrw7gQezWaZ9e6AZrs2s1tTYowpgE8twLjYPxlXyPIs08HnDBDio52wiUu7ssTsMDYSrhoKK3S-DCcwHuF1BxptM6sngJLYrmw5eZ2lTrjQY7QY6CCSQR-fxmjOwD3P19paQ__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Augmenting Surfaces</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/f060fbcd8c954f8d/screenshot_1744710511676.png?Expires=1839318511&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=vRAj~JcFC8r8OXG3fXNYIPL-TbeV-CU06uLtAMhqt9BeRXGwvTvEet1nDuntGKr~gkXo2EcDFUmdAtIOKcowu--GjkWOvOV1HY6N1652WQMQH6hNppDs3Y-54c1Gks1Nhgg3Pp7bTDhEmVZXDgrrXxoCPGLHOP7GZYUibHTymklz-000-qad1-Y3lwoRsAAPn4LI5PFz24k52OKXG2C7w7Bf11iQHDF~o3HyZbcyZpzltMnQYsalGeDFGEbARWyvlZ-HY48fU-pYPtUktEcDmBm2HCkls9afgqtk~mFroiTJ9bYFt7Ik7RIX9F725Yp9-GGSUMn3LJkbRNwwsXHRtg__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">WireLess Charger</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src="https://media-hosting.imagekit.io/eea1909609984c9d/screenshot_1744710475641.png?Expires=1839318475&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=cIJyuD6eQKyVTOUaHn5SA9w3DXizZrUPBWX~spddiA8cmqUC61aLxcHTfIlsBX5P7fb1IFqwhRc-Lal7q86dq8g-cBJA7-gfupm9nsG4~lrU~I5K6WQ6z0lqYsxyAo6Up~xA~139tszf2oi4Xk7rI5ob7xOcTHBk1dzj5EgXnuKcuAoM-rlayBM46UzVsvkFqbwLKqoG19FsdQh2Ohkdi6vLdbWlghFlVwcjMTkgSrEXEHrbMWukzkJvFtRFRW-jbK~B-SW3hBNPz8Gf2XoxSTil6hg34EOA4z7uV4y3XnkjeWAVlB951MwK3QVIxn6iU3prnQhKoAHhzsiKH7BmpA__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title"> Roadside Assistance Kit</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src=" https://media-hosting.imagekit.io/e461ca56b52549bf/screenshot_1744710430074.png?Expires=1839318429&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=1GdpSS4LGpg6NwsCLyk5J6LSKHnlcAW6aQIU-8X15K3sb7O8uzcXt4RNSz0yx4s7lYQVUcilj2Hzbi1VzZ7UHeskjU~ffJJkTCTsyK45PW-29ejpuBjNSr5KK3VHIgtAV~NPF9pJ12JQfbxSiYpT1TVZF87Ptaxw3thxfjnQAAvUEUtqKxsMTzpAKmvfceLyTNaDGIH0b~DoH-kkSDyEG2ypMAR2UHcBPukUyKRP0bHdoAQ3GYYNFL7tFw7TdFZOofzqDI~QN1uPZlwbmwiqamoCedoSDQ0QnILhlofwTbJqKElWwAqD6me3y8~e9SQqzIwxTq9ARjXrvclBJkU5uA__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Pet Care Kit</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 animate__animated animate__zoomIn animate__delay-4s">
+          <img src="https://media-hosting.imagekit.io/5c877fd37d0b45fc/screenshot_1744710381149.png?Expires=1839318381&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=JmB5AA9yBa87fjulnRWiETbBoKu3xNwqYM0Dcr8bH0xPAeX0HhNd-Pd-YM8aOaRtG7dXWl6ERPSncK4a7nDfN7ApFIMLFZQe7TnumMViLMj6l0u3wp7FEqhz8ragzD~P~7g-GiWlBjZk0swsxoNBCs0saGJh3iad9CMB0EOfL3dSme8JmmucVFWpU2rj35OwlcXFNcsE7qjMMKeabqgFlzRZKzuuP56pt14Qeh~xWhcnKsDv8KQbF-YxkMz1JZ-xIVhi3qrWg2K3PXkH5Cuq2Lajh8iWc-tYIvQJvHb2wY0uipUdx50vx6UntKCPSIBWnLHJHeF39nFEcT-6uATj3w__" class="card-img-top" alt="Pet Care Kit">
+          <div class="card-body">
+            <h5 class="card-title">Smart TPMS</h5>
+            <p class="card-text">Comprehensive care tools and accessories for pet grooming and first aid while on the go.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+<!-- Back to Home Link -->
+<div class="text-center py-4">
+    <a href="index.html" class="text-decoration-none text-light fw-bold">
+      ← Back to Home
+    </a>
+  </div>
+  
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
